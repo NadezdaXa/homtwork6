@@ -43,7 +43,7 @@ public class Main {
         double average = 1;
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] > 0) {
-                average = maxMany + minMany/arr.length;
+                average = maxMany + minMany/2;
             }
         }
         System.out.println("средняя сумма трат за месяц " + average + " рублей");
